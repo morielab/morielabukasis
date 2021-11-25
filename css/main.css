@@ -1,0 +1,100 @@
+body{
+    background-color: #cbc3c333;
+    text-align: center;
+    font-family: 'PT Mono', monospace;
+    color: #000000ad;
+}
+
+h1{
+    margin-top: 50px;
+    color: #0000008a;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    border: rgb(148, 148, 150);
+}
+
+td {
+    width: 45px;
+    background: rgb(196, 196, 196);
+    height: 42px;
+    box-shadow: inset 0 0 3px #9d9db3;
+    border-radius: 2px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.difficulties{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.timer{
+
+    margin-top: 20px;
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2px;
+    color: #ffffff;
+    padding-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    width: 65px;
+    background-color: rgb(196, 196, 196);
+    box-shadow: inset 0 0 3px #9d9db3;
+    float: inline-end;
+ }
+
+ input[type="radio"]{
+    margin: 0 5px 0 20px;
+  }
+button{
+    
+    margin-left: auto;
+    margin-right: auto; 
+    display: flex;
+    width: 45px;
+    background: rgb(196, 196, 196);
+    height: 25px;
+    border: rgb(148, 148, 150);
+    border-radius: 2px;
+    box-shadow: inset 0 0 3px #9d9db3;
+    justify-content: center;
+    text-align: center; 
+    cursor: pointer;
+
+}
+
+.restart-btn:hover{
+    background-color: #7d7d81;
+}
+
+.lives-block{
+
+ 
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.flags-block{
+    
+
+    text-align: center;
+    margin-top: 20px;
+
+
+}
+
+.menu{
+    display: inline-block;
+}
